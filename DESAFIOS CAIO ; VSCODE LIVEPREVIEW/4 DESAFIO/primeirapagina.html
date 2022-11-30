@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style2.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Combo&family=Koulen&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap"
+      rel="stylesheet"
+    />
+    <script type="text/javascript" src="buttons.js"></script>
+    <script type="text/javascript">
+      function myFunction() {
+        document.getElementById("myTable").deleteRow(-1);
+      }
+    </script>
+    <title>Document</title>
+  </head>
+  <body>
+    <h1></h1>
+    <div class="container2">
+      <table class="table" border="1" id="myTable">
+        <thead>
+          <tr id="myRow">
+            <th class="center">Nome</th>
+            <th>N-Letras</th>
+            <th>N-Vogals</th>
+          </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+      </table>
+      <button id="btn-adc" button-type="submit">+</button>
+      <button id="btndelete" button-type="submit" onclick="myFunction();">
+        -
+      </button>
+    </div>
+    <script type="text/javascript" src="/js/scripts2.js"></script>
+  </body>
+</html>

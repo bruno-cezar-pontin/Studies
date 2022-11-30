@@ -1,0 +1,28 @@
+COMANDOS HTML IMPORTANTES :
+
+&lt; < – Menor que;
+&gt; > – Maior que;
+&amp; & – E comercial;
+&quot; ” – Sinal de citação;
+&copy; © – Copyright;
+&trade; ™ – Trademark;
+&nbsp; – Espaço;
+
+
+Inserindo CSS:
+<link href="caminhoarquivo" rel="stylesheet">
+
+
+Inserindo JAVASCRIPT:
+<script type="text/javascript">
+  alert('Olá mundo!');
+</script>
+
+
+inserindo jQuery:
+<script type="text/javascript" language
+="javascript" src="javascript/jquery.js"></script>
+
+
+inserindo bootstrap 5:
+<link href="caminhoarquivo-bootstrap.min.css" rel="stylesheet">

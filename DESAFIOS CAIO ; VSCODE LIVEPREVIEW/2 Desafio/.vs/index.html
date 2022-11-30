@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/.vs/style.css" />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+      }
+      .d-inline {
+        display: inline-block;
+        height: 200px;
+        width: 200px;
+      }
+      button {
+        padding: 40px;
+      }
+
+      .red {
+        background: red;
+      }
+      .blue {
+        background: blue;
+      }
+      .green {
+        background: green;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="d-inline red"></div>
+    <div class="d-inline blue"></div>
+    <div class="d-inline green"></div>
+
+    <hr />
+
+    <button id="botaoFADEIN">Colocar</button>
+    <button id="botaoFADEOUT">Tirar</button>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $("#botaoFADEIN").click(function () {
+          $(".blue").fadeIn(2000);
+        });
+        $("#botaoFADEOUT").click(function () {
+          $(".blue").fadeOut(2000);
+        });
+      });
+    </script>
+  </body>
+</html>

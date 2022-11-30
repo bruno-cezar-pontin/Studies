@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style2.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.js"
+      integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <script type="text/javascript">
+      let lastNumber;
+      function getRandNumber() {
+        //Multiplica pelo valor maximo e soma o valor minimo ( colocar o valor maximo e minimo que você quer atingir)
+        var z = Math.floor(Math.random() * 5 + 1);
+
+        //Se o tipo do valor for igual ele gera um novo numero
+        if (z === lastNumber) {
+          return getRandNumber();
+        }
+        return z; // Se for diferente ele retorna o valor gerado
+      }
+
+      function myRNumb() {
+        const number = getRandNumber();
+        lastNumber = number;
+        $("#shownumber").html(number);
+
+        switch (number) {
+          case 1:
+            $("#c1").show();
+            $("#d2").hide();
+            $("#e3").hide();
+            $("#f4").hide();
+            $("#g5").hide();
+            $("#cinput1").html("➠ ❶");
+            break;
+          case 2:
+            $("#c1").hide();
+            $("#d2").show();
+            $("#e3").hide();
+            $("#f4").hide();
+            $("#g5").hide();
+            $("#dinput1").html("➠ ❷");
+            $("#dinput2").html("➠ ❷");
+            break;
+          case 3:
+            $("#c1").hide();
+            $("#d2").hide();
+            $("#e3").show();
+            $("#f4").hide();
+            $("#g5").hide();
+            $("#einput1").html("➠ ❸");
+            $("#einput2").html("➠ ❸");
+            $("#einput3").html("➠ ❸");
+            break;
+          case 4:
+            $("#c1").hide();
+            $("#d2").hide();
+            $("#e3").hide();
+            $("#f4").show();
+            $("#g5").hide();
+            $("#finput1").html("➠ ❹");
+            $("#finput2").html("➠ ❹");
+            $("#finput3").html("➠ ❹");
+            $("#finput4").html("➠ ❹");
+            break;
+          case 5:
+            $("#c1").hide();
+            $("#d2").hide();
+            $("#e3").hide();
+            $("#f4").hide();
+            $("#g5").show();
+            $("#ginput1").html("➠ ❺");
+            $("#ginput2").html("➠ ❺");
+            $("#ginput3").html("➠ ❺");
+            $("#ginput4").html("➠ ❺");
+            $("#ginput5").html("➠ ❺");
+            break;
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div class="infocontainer">
+      <img src="/img/cad.png" id="cad" width="100px" />
+      <label for="namereg" id="namereg" class="reg1"></label>
+      <label for="agereg" id="agereg" class="reg1"></label>
+      <label for="sexoreg" id="sexoreg" class="reg1"></label
+      ><br /><br /><br /><br />
+    </div>
+
+    <img src="/img/63105899-click-novo.gif" id="imgmao" width="50px" />
+    <button type="submit" class="button" onclick="myRNumb()">
+      Sorteie um numero
+    </button>
+    <label type="text" id="shownumber" class="lbltxt"></label><br /><br />
+
+    <div class="container-image" id="c1">
+      <label id="cinput1" class="lbltxt"></label><br />
+    </div>
+    <div class="container-image" id="d2">
+      <label id="dinput1" class="lbltxt"></label><br />
+      <label id="dinput2" class="lbltxt"></label><br />
+    </div>
+    <div class="container-image" id="e3">
+      <label id="einput1" class="lbltxt"></label><br />
+      <label id="einput2" class="lbltxt"></label><br />
+      <label id="einput3" class="lbltxt"></label><br />
+    </div>
+    <div class="container-image" id="f4">
+      <label id="finput1" class="lbltxt"></label><br />
+      <label id="finput2" class="lbltxt"></label><br />
+      <label id="finput3" class="lbltxt"></label><br />
+      <label id="finput4" class="lbltxt"></label><br />
+    </div>
+    <div class="container-image" id="g5">
+      <label id="ginput1" class="lbltxt"></label><br />
+      <label id="ginput2" class="lbltxt"></label><br />
+      <label id="ginput3" class="lbltxt"></label><br />
+      <label id="ginput4" class="lbltxt"></label><br />
+      <label id="ginput5" class="lbltxt"></label><br />
+    </div>
+    <script type="text/javascript" src="/js/script.js"></script>
+  </body>
+</html>

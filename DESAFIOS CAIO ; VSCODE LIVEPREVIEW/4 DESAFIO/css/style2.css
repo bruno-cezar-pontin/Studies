@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  vertical-align: center;
+  list-style: none;
+  border: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  margin-top: 300px;
+  background-color: black;
+  min-width: 1980px;
+  min-height: 1080px;
+}
+table,
+th,
+td {
+  padding: 10px;
+  color: rgb(255, 140, 32);
+  border: 1px solid;
+  font-size: 25px;
+  font-family: "Combo", cursive;
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2),
+    0 6px 10px 0 rgba(255, 255, 255, 0.19);
+}
+#btn-adc {
+  background-color: black;
+  font-family: "Bungee Spice", cursive;
+  width: 50px;
+  margin-top: 20px;
+  font-size: 40px;
+  border-radius: 20%;
+}
+
+#btndelete {
+  background-color: black;
+  font-family: "Bungee Spice", cursive;
+  width: 50px;
+  margin-left: 370px;
+  margin-top: 20px;
+  font-size: 40px;
+  border-radius: 20%;
+}

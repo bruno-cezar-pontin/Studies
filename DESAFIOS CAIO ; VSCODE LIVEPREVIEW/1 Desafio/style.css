@@ -1,0 +1,174 @@
+body {
+  background-color: bisque;
+  margin: auto;
+}
+
+.poscentralized {
+  -webkit-display: flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.imgtopo {
+  float: left;
+  margin-left: 1200px;
+  max-width: 700px;
+  margin-bottom: 1px;
+  text-overflow: ellipsis;
+  opacity: 50%;
+}
+.spanblack {
+  color: black;
+}
+
+#tituloprincipal {
+  color: rgb(0, 0, 0);
+  font-size: 65px;
+  font-weight: 800;
+  font-family: "Silkscreen", cursive;
+  margin-top: 10px;
+  margin-right: 50px;
+  -webkit-display: flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.imagem1 {
+  margin-left: 5px;
+  padding-top: 100px;
+}
+
+#teste {
+  padding-left: 780px;
+  font-size: 60px;
+  font-family: "Silkscreen", cursive;
+  text-decoration: underline;
+  padding-top: 30px;
+}
+
+#txt1 {
+  color: blue;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding-top: 25px;
+  line-height: 25px;
+}
+
+#htresdois {
+  text-align: center;
+  font-size: 75px;
+  font-family: "Silkscreen", cursive;
+  padding-top: 10px;
+  text-decoration: underline;
+  margin-right: center;
+}
+
+#sondiv {
+  color: blue;
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+/*---float aqui---*/
+.arredondarimg {
+  float: right;
+  border-radius: 100px;
+}
+
+ol.c {
+  background-color: #000000;
+  font-weight: 900;
+  font-size: 30px;
+  margin-top: 0px;
+}
+
+h1.c {
+  font-size: 30px;
+  font: weight 900px;
+  margin-top: 50px;
+  font-family: "Silkscreen", cursive;
+  -webkit-display: flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+ol {
+  background: bisque;
+  padding: 10px;
+}
+
+ol li {
+  background: bisque;
+  color: black;
+  padding: 5px;
+  margin-left: 35px;
+}
+
+table,
+th,
+td {
+  background-color: bisque;
+  border: 3px solid;
+  text-align: center;
+  font-size: 30px;
+}
+
+table {
+  background-color: #000000;
+  -webkit-display: flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.flex {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.valor {
+  color: #000000;
+}
+
+.descprodut {
+  font-size: 15px;
+  font-weight: 900;
+}
+
+#texto2 {
+  padding-top: 15px;
+}
+
+.divlist {
+  background-color: bisque;
+  -webkit-display: flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  background-color: bisque;
+}
+#list0 {
+  font-family: "Silkscreen", cursive;
+  text-align: center;
+  padding: 10px;
+  text-decoration: underline;
+}
+#x {
+  color: red;
+  font-size: 18px;
+}

@@ -1,0 +1,48 @@
+.vovo {
+  width: 1980px;
+  height: 1020px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pai {
+  background: rgb(0, 0, 0);
+  width: 800px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-style: groove;
+  border-bottom-color: blueviolet;
+  border-left-color: blueviolet;
+  border-right-color: red;
+  border-top-color: red;
+}
+#filho1 {
+  background: gray;
+  width: 198px;
+  height: 102px;
+}
+#filho2 {
+  background: rgb(224, 59, 161);
+  width: 198px;
+  height: 102px;
+}
+#filho3 {
+  background: rgb(95, 29, 248);
+  width: 198px;
+  height: 102px;
+}
+#filho4 {
+  background: rgb(212, 231, 37);
+  width: 198px;
+  height: 102px;
+}
+#botao {
+  width: 100px;
+  height: 70px;
+}

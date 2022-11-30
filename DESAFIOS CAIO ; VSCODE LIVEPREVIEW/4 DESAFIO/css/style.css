@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  vertical-align: center;
+  list-style: none;
+  border: 0;
+}
+body {
+  text-align: center;
+  align-items: center;
+  background-color: black;
+}
+#numerostotal {
+  font-family: "Staatliches", cursive;
+  background-color: rgba(250, 235, 215, 0.205);
+  font: 7px;
+  text-align: center;
+  align-content: flex-start;
+  margin-top: 100px;
+}
+#numerospar {
+  background-color: rgba(250, 235, 215, 0.205);
+  margin-top: 150px;
+}
+#numerosimpar {
+  background-color: rgba(250, 235, 215, 0.205);
+  margin-top: 150px;
+}
+.titulo {
+  font-size: 50px;
+  font-family: "Staatliches", cursive;
+  color: white;
+}
+#numeroPAR {
+  font-size: 20px;
+  font-family: "Bungee Spice", cursive;
+}
+
+#numeroimpar {
+  font-size: 20px;
+  font-family: "Bungee Spice", cursive;
+}
+.ttmaster {
+  font-family: "Staatliches", cursive;
+  font-size: 80px;
+  color: antiquewhite;
+}
+#numeros {
+  font-family: "Bungee Spice", cursive;
+}
+#btn {
+  background-color: rgb(255, 140, 32);
+  box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.2),
+    0 6px 20px 0 rgba(255, 255, 255, 0.19);
+  margin-top: 40px;
+  margin-left: 1650px;
+  padding: 28px 14px;
+  border-radius: 150px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
